@@ -16,7 +16,6 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="122dp"
         android:fontFamily="sans-serif-black"
-        android:text="Edimburgo"
         android:textColor="@color/mustard"
         android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,7 +30,6 @@
         android:layout_marginTop="112dp"
         android:layout_marginEnd="156dp"
         android:fontFamily="sans-serif-light"
-        android:text="Hello there"
         android:textColor="@color/white"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,13 +41,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="169dp"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="169dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Rainy"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTemperature" />
 
@@ -61,11 +59,10 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="53dp"
         android:fontFamily="sans-serif-black"
-        android:text="10°C"
         android:textColor="@color/white"
         android:textSize="70sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ivWeather" />
 
@@ -81,5 +78,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvCity"
         app:srcCompat="@drawable/ic_rainy" />
+
+    <Button
+        android:id="@+id/btnCambiarClima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Cambiar Clima"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvWeather" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
